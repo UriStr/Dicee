@@ -9,7 +9,6 @@
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="25dp">
 
-
     <ImageView
         android:id="@+id/imageLogo"
 
@@ -23,13 +22,12 @@
 
         app:srcCompat="@drawable/dicee_logo" />
 
-
     <ImageView
         android:id="@+id/image_leftDice"
         android:layout_width="0dp"
         android:layout_height="0dp"
 
-        android:layout_marginEnd="16dp"
+        android:layout_marginStart="64dp"
         android:scaleType="fitCenter"
 
         app:layout_constraintBottom_toTopOf="@id/diceeBottomGuidline"
@@ -44,7 +42,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
 
-        android:layout_marginStart="16dp"
+        android:layout_marginEnd="64dp"
         android:scaleType="fitCenter"
 
         app:layout_constraintBottom_toTopOf="@id/diceeBottomGuidline"
@@ -61,7 +59,6 @@
 
         android:layout_width="0dp"
         android:layout_height="0dp"
-
 
 
         android:text="@string/button_text"
@@ -93,21 +90,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.88" />
+        app:layout_constraintGuide_percent="0.8" />
 
     <android.support.constraint.Guideline
         android:id="@+id/logoBottomGuideline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.33057165" />
+        app:layout_constraintGuide_percent="0.41" />
 
     <android.support.constraint.Guideline
         android:id="@+id/logoTopGuidline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.025" />
+        app:layout_constraintGuide_percent="0.03" />
 
     <android.support.constraint.Guideline
         android:id="@+id/diceeTopGuidline"
