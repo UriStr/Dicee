@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Dicee</string>
+    <string name="app_name" translatable="false">Dicee</string>
     <string name="button_text">Roll</string>
 </resources>
